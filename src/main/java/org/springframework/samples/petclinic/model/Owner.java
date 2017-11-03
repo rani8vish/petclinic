@@ -43,7 +43,7 @@ import org.springframework.core.style.ToStringCreator;
  */
 @Entity
 @Table(name = "owners")
-public class Owner extends StrongPerson {
+public class Owner extends Person {
     @Column(name = "address")
     @NotEmpty
     private String address;
